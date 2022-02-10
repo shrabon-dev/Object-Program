@@ -25,12 +25,14 @@ input{
   font-size: 28px;
   padding-left: 15px;
   margin-top: 40px;
-  background: #ffffff;
-  border: 1px solid #E4E5E6;
-  font-weight: 300;
+  background: #acacac;
+  border: none;
+  color: #ffffff;
+  font-weight: 100;
 }
 ::placeholder{
   font-weight: 100;
+  opacity: 1;
 }
 input:focus{
  outline: none;
@@ -39,7 +41,7 @@ button{
   width: 40px;
   height: 40px;
   background: #E4E5E6;
-  box-shadow: 0 0 6px 0 #1a1a1a9d;
+  box-shadow: 0 0 5px 0 #1a1a1a9d;
   margin-top: 50px;
   margin-left: 20px;
   font-size: 24px;
